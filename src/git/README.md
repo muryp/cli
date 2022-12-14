@@ -1,0 +1,11 @@
+NOTE:
+- git checkout fzf
+- git flow fzf
+- git merge fzf
+- git fetch
+- delete branch
+- git remote fzf
+- fetch pull fzf
+- tag version
+- tag release
+-  

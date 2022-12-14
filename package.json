@@ -1,0 +1,17 @@
+{
+  "name": "muryp-cli",
+  "version": "0.0.1",
+  "description": "cli for git,menus,etc",
+  "main": "index.js",
+  "repository": "git@github.com:muryp/muryp-cli.git",
+  "author": "alifprihantoro <alifmuryp@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "muryp": "./main.bash"
+  },
+  "preferGlobal": true,
+  "publishConfig": {
+    "access": "public",
+    "tag": "v0.0.1"
+  }
+}
