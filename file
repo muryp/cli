@@ -1,0 +1,17 @@
+GFIX: fdsa
+
+# type body under this comment
+
+# this comment not be use in commit
+
+# M bin/version.bash 
+# D src/git/versioning/func/fzf.sh 
+# D src/git/versioning/main.sh 
+# D src/git/versioning/question/body.sh 
+# D src/git/versioning/question/branch.sh 
+# D src/git/versioning/question/feature.sh 
+# D src/git/versioning/question/issue.sh 
+# D src/git/versioning/question/title.sh 
+# D src/git/versioning/question/version.sh 
+# D src/git/versioning/var.sh?? backup/?? file?? src/git/versioning/func/fzf.bash?? src/git/versioning/main.bash?? src/git/versioning/question/body.bash?? src/git/versioning/question/branch.bash?? src/git/versioning/question/feature.bash?? src/git/versioning/question/issue.bash?? src/git/versioning/question/title.bash?? src/git/versioning/question/version.bash?? src/git/versioning/var.bash
+

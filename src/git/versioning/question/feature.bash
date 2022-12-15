@@ -12,7 +12,6 @@ list_feature=(
 'GREVERT: reverts a previous commit'
 )
 ANSWER_FEATURE=$(echo $(my_fzf "${list_feature[@]}") | sed "s/: .*/:/")
-echo $ANSWER_FEATURE
 if [ "$ANSWER_FEATURE" != "" ]; then
-  . $parent_path/question/title.sh # feature list array
+  . $parent_path/question/title.bash # feature list array
 fi    
