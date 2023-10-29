@@ -1,0 +1,27 @@
+{
+  "name": "@muryp/repo-list",
+  "version": "1.0.3",
+  "description": "test 3",
+  "main": "./dist/index.js",
+  "private": false,
+  "author": "alief prihantoro <alifprihantoro@gmail.com> (https://github.com/alifprihantoro)",
+  "bin": {
+    "gitw": "dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "lint": "eslint ./src/**/*.ts"
+  },
+  "keywords": [
+    "test"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@muryp/something": "workspace:^",
+    "enquirer": "^2.4.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
