@@ -1,0 +1,42 @@
+[
+  {
+    "header": "Usage :",
+    "content": "$ gitw add <options>"
+  },
+  {
+    "header": "Example :",
+    "content": "$ gitw add path1 path2 -sd -l '\\{\"name\":\"origin\",\"url\":\"url\"\\}' -l '\\{\"name\":\"second\",\"host\":\"github\",\"username\":\"alifprihantoro\",\"repo\":\"cli\"\\}'"
+  },
+  {
+    "header": "Options :",
+    "optionList": [
+      {
+        "name": "help",
+        "description": "Display this usage guide.",
+        "alias": "h"
+      },
+      {
+        "name": "ssh",
+        "description": "is repo use ssh link for remote.",
+        "alias": "s"
+      },
+      {
+        "name": "depth1",
+        "description": "is repo use depth=1 for clone.",
+        "alias": "d"
+      },
+      {
+        "name": "path",
+        "description": "where path be clone it.",
+        "alias": "p",
+        "typeLabel": "{underline path}"
+      },
+      {
+        "name": "list-remote",
+        "description": "remote list for this project.",
+        "alias": "l",
+        "typeLabel": "{underline json}"
+      }
+    ]
+  }
+]

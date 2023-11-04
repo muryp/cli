@@ -1,0 +1,30 @@
+[
+  {
+    "header": "Usage :",
+    "content": "$ gitw add <options>"
+  },
+  {
+    "header": "Example :",
+    "content": "$ gitw add path1 path2 -sd -l '\\{\"name\":\"origin\",\"url\":\"url\"\\}' -l '\\{\"name\":\"second\",\"host\":\"github\",\"username\":\"alifprihantoro\",\"repo\":\"cli\"\\}'"
+  },
+  {
+    "header": "Options :",
+    "optionList": [
+      {
+        "name": "help",
+        "description": "Display this usage guide.",
+        "alias": "h"
+      },
+      {
+        "name": "type",
+        "description": "what output type. option : json or text.",
+        "alias": "t"
+      },
+      {
+        "name": "short",
+        "description": "short by. options : group, path, repo, all",
+        "alias": "s"
+      }
+    ]
+  }
+]

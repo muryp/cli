@@ -1,0 +1,21 @@
+{
+  "name": "@muryp/prompt",
+  "version": "1.0.1",
+  "description": "simplify for enquirer",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "enquirer": "^2.4.1"
+  }
+}

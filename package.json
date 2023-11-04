@@ -3,17 +3,25 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test2": "echo \"Error: no test specified\" && exit 1",
+    "test3": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@types/command-line-args": "^5.2.2",
+    "@types/command-line-usage": "^5.0.3",
     "@types/inquirer": "^9.0.6",
     "@types/node": "^20.8.9",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
     "eslint": "^8.52.0",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@muryp/prompt": "workspace:^"
   }
 }

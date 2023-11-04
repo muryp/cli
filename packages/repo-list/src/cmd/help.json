@@ -1,0 +1,35 @@
+[
+  {
+    "header": "Example :",
+    "content": "$ gitw <command> <options>"
+  },
+  {
+    "header": "Command :",
+    "content": [
+      {
+        "name": "help",
+        "summary": "Display help information about @muryp/repo-list."
+      },
+      {
+        "name": "add",
+        "summary": "add repo in db and clone"
+      },
+      {
+        "name": "change",
+        "summary": "change db and git info"
+      },
+      {
+        "name": "clone",
+        "summary": "clone from db"
+      },
+      {
+        "name": "find",
+        "summary": "find repo/folder/group"
+      },
+      {
+        "name": "generate",
+        "summary": "generate json/txt file"
+      }
+    ]
+  }
+]
